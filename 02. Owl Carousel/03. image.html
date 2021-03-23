@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Basic usage demo">
+    <meta name="author" content="David Deutsch">
+    <title>
+        Basic Demo | Owl Carousel | 2.3.4
+    </title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/docs.theme.min.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 4,
+                lazyLoad: true,
+                loop: true,
+                margin: 10
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="owl-carousel owl-theme">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=1" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=2" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=4" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=5" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=6" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=7" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=8" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=9" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=10" alt="">
+        <img class="owl-lazy" data-src="https://placehold.it/300x200&text=11" alt="">
+    </div>
+</body>
+
+</html>
